@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anushrav Pandey | Portfolio</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+    
+            <a href="#home" class="logo">
+                Anushrav<span>.</span>
+            </a>
+    
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    
+            <button id="menu-btn">☰</button>
+    
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-text">HELLO, I'M</p>
+
+            <h1>Anushrav <span>Pandey</span></h1>
+
+            <h2>
+                BCA Student & Electronics Engineering Student
+            </h2>
+
+            <p>
+                I am interested in Web Development, Programming,
+                Electronics and Technology. I love learning new
+                technologies and building useful projects.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+            <div class="profile-circle">
+                <img src="images\pf.jpg" alt="Anushrav Pandey">
+            </div>
+
+            <h3>Anushrav Pandey</h3>
+            <p>Developer • Student • Tech Enthusiast</p>
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div>
+                <h3>Who am I?</h3>
+
+                <p>
+                    I am a student pursuing BCA along with a Diploma in
+                    Electronics & Communication Engineering.
+                </p>
+
+                <p>
+                    My interests include programming, web development,
+                    electronics, computer science and emerging technologies.
+                </p>
+
+                <p>
+                    My goal is to continuously improve my technical skills
+                    and build real-world projects.
+                </p>
+
+                <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+            </div>
+
+            <div class="about-info">
+
+                <p><strong>Name:</strong> Anushrav Pandey</p>
+                <p><strong>Education:</strong> BCA + Diploma</p>
+                <p><strong>Field:</strong> Computer Science & Electronics</p>
+                <p><strong>Location:</strong> Uttar Pradesh, India</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section dark">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <div class="progress">
+                    <div style="width: 85%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <div class="progress">
+                    <div style="width: 75%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <div class="progress">
+                    <div style="width: 60%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>C / C++</h3>
+                <div class="progress">
+                    <div style="width: 65%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <div class="progress">
+                    <div style="width: 55%"></div>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3>Electronics</h3>
+                <div class="progress">
+                    <div style="width: 70%"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <span>2025</span>
+
+                <h3>Class 12th - CBSE</h3>
+
+                <p>
+                    New Angels Senior Secondary School
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span>2025 - Present</span>
+
+                <h3>Diploma in Electronics & Communication Engineering</h3>
+
+                <p>
+                    Government Polytechnic Pratapgarh(4414)
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span>2025 - Present</span>
+
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+
+                <p>
+                    MNNIT,PRAYAGRAJ
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATES -->
+
+<section id="certificates" class="section">
+
+    <h2 class="section-title">My Certificates</h2>
+
+    <p class="section-subtitle">
+        Certifications and achievements from various learning programs.
+    </p>
+
+    <div class="certificates-container">
+
+        <!-- 1 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">📊</div>
+            <h3>Tally Prime</h3>
+            <p>Certificate in Tally Prime</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/tally-prime.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/tally-prime.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+
+        <!-- 2 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">📈</div>
+            <h3>SEBI IAT</h3>
+            <p>SEBI IAT Certificate</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/SEBI-IAT.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/SEBI-IAT.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+
+        <!-- 3 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">📡</div>
+            <h3>IoT Basic</h3>
+            <p>Basic Internet of Things Certificate</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/iot-basic.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/iot-basic.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+
+        <!-- 4 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">🏆</div>
+            <h3>IoT Advanced Scorecard</h3>
+            <p>Advanced IoT Scorecard</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/IoT-Advanced_Scorecard.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/IoT-Advanced_Scorecard.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+
+        <!-- 5 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">⚙️</div>
+            <h3>IoT Advanced</h3>
+            <p>Advanced Internet of Things Certificate</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/iot-advance.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/iot-advance.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+
+        <!-- 6 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">🤖</div>
+            <h3>Basic AI</h3>
+            <p>Basic Artificial Intelligence Certificate</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/Basic_AI_Certificate.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/Basic_AI_Certificate.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+
+        <!-- 7 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">🏅</div>
+            <h3>AI Basic Scorecard</h3>
+            <p>Artificial Intelligence Scorecard</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/AI_Basic_Scorecard.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/AI_Basic_Scorecard.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+
+        <!-- 8 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">📡</div>
+            <h3>Advanced IoT</h3>
+            <p>Advanced IoT Certificate</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/advanced-iot-mail.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/advanced-iot-mail.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+
+        <!-- 9 -->
+        <div class="certificate-card">
+            <div class="certificate-icon">🥽</div>
+            <h3>Advanced AR & VR</h3>
+            <p>Augmented Reality & Virtual Reality Certificate</p>
+
+            <div class="certificate-buttons">
+                <a href="certificates/advanced-AR-VR.pdf"
+                   target="_blank"
+                   class="btn">
+                    View Certificate
+                </a>
+
+                <a href="certificates/advanced-AR-VR.pdf"
+                   download
+                   class="btn outline">
+                    Download
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- PROJECTS -->
+    
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section">
+    <h2 class="section-title">My Projects</h2>
+    <p class="section-subtitle">
+        Practical projects showcasing my programming and problem-solving skills.
+    </p>
+
+    <div class="projects-container">
+
+        <!-- PROJECT 1: BANK MANAGEMENT SYSTEM -->
+        <article class="project-card">
+
+            <div class="project-video">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/YkWazWzBmVM"
+                    title="Bank Management System - Python and SQL"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        
+            <div class="project-content">
+        
+                <span class="project-number">PROJECT 01</span>
+        
+                <h3>Bank Management System</h3>
+        
+                <p>
+                    A banking management application developed using Python
+                    with SQL database connectivity. The project demonstrates
+                    database operations and basic banking record management.
+                </p>
+        
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Database Connectivity</span>
+                </div>
+        
+            </div>
+        
+        </article>
+
+
+        <!-- PROJECT 2: ROLLING DICE -->
+        <article class="project-card">
+            <div class="project-video">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/dasyerkpAYo"
+                    title="Rolling Dice Simulator - Python Demo"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="project-content">
+                <span class="project-number">PROJECT 02</span>
+
+                <h3>Rolling Dice Simulator</h3>
+
+                <p>
+                    A Python program that simulates rolling a dice and
+                    generates random outcomes. This project demonstrates
+                    basic programming logic and random number generation.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Random Module</span>
+                    <span>Logic Building</span>
+                </div>
+
+                
+            </div>
+        </article>
+
+        <!-- PROJECT 3: Password Cracking using Python Script -->
+        <article class="project-card">
+
+            <div class="project-video">
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/BE69fiv3t5w"
+                    title="Password Cracking using Python Script"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        
+            <div class="project-content">
+        
+                <span class="project-number">PROJECT 03</span>
+        
+                <h3>Password Cracking using Python Script</h3>
+        
+                <p>
+                    Password Cracking using Python Script
+                    The project demonstrates Security And Peneteration operations.
+                </p>
+        
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Wi-Fi</span>
+                    <span>Password Checklist</span>
+                </div>
+        
+            </div>
+        
+        </article>
+
+    </div>
+</section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="section">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-card">
+
+            <h3>Hero MotoCorp Internship</h3>
+
+            <p class="date">2 Month Internship</p>
+
+            <p>
+                Practical exposure to motorcycle electrical/electronic
+                systems, engine assembly and basic automobile technology.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- RATING SECTION -->
+<section id="rating" class="section rating-section">
+
+    <h2 class="section-title">Rate My Portfolio</h2>
+
+    <p class="section-subtitle">
+        Your feedback helps me improve my portfolio and projects.
+    </p>
+
+    <div class="rating-card">
+
+        <h3>How would you rate my portfolio?</h3>
+
+        <div class="star-rating" id="star-rating">
+            <button type="button" data-rating="1" aria-label="1 star">★</button>
+            <button type="button" data-rating="2" aria-label="2 stars">★</button>
+            <button type="button" data-rating="3" aria-label="3 stars">★</button>
+            <button type="button" data-rating="4" aria-label="4 stars">★</button>
+            <button type="button" data-rating="5" aria-label="5 stars">★</button>
+        </div>
+
+        <p id="rating-text">Select a rating</p>
+
+        <textarea
+            id="rating-comment"
+            placeholder="Write your feedback (optional)..."
+            rows="4"></textarea>
+
+        <button type="button" id="submit-rating" class="rating-submit">
+            Submit Rating
+        </button>
+
+        <p id="rating-status"></p>
+
+    </div>
+
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section dark">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-container">
+
+            <p>
+                Interested in working together or discussing technology?
+            </p>
+
+            <div class="contact-info">
+
+                <a href="mailto:your-email@gmail.com">
+                    📧 Gmail
+                </a>
+
+                <a href="https://www.linkedin.com/in/anushrav-pandey-71932a333?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+                    💼 LinkedIn
+                </a>
+
+                <a href="https://github.com/anushrav24908/project">
+                    💻 GitHub
+                </a>
+
+                <a href="https://maps.app.goo.gl/uBD2GGd6w6H45xDS8">
+                    📍 Location
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Anushrav Pandey. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
